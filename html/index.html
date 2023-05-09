@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!--Menu-->
+  <nav>
+    <input type="checkbox" id="toogle">
+    <div class="logo">frontend and backend</div>
+    <ul class="list" id="list">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#perfil">perfil</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <label for="toogle" class="icon-bars">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    </label>
+</nav>
+<!--descripcion del perfil-->
+</section>
+<section><div class="container-img">
+ 
+    <img id="perfil" class="image" src="../img/perfil.svg" alt="[texto alternativo de la imagen]">
+    <h2  class="habi" >Perfil</h2>
+    <p>"¡Hola! Soy Jonathan Conforme, Ingeniero en TIC con experiencia en trabajo en equipo y pasión por aprender cosas nuevas. Me encanta la programación web y tengo habilidades en HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, Git y GitHub. Me gusta enfrentar desafíos y desarrollar soluciones creativas e innovadoras. Siempre estoy buscando nuevas oportunidades para mejorar mis habilidades y aprender más. ¡Gracias por visitar mi portafolio!"</p>  </div>
+  </section>
+<!--habilidades-->
+<section>
+<div class="contenedor-imagen" id="habilidades">
+  <h2 class="habi" >Mis Skills</h2>
+<div class="imgenes">
+  <img src="../img/html.svg" alt="html ">
+  <img src="../img/js.svg" alt="js">
+  <img src="../img/css.svg" alt="css">
+  <img src="../img/php.svg" alt="css">
+  <img src="../img/sql.svg" alt="sql">
+  <img src="../img/navicat.svg" alt="navicat">
+  <img src="../img/github.svg" alt="github">
+  <img src="../img/bootstrap.svg" alt="bootstrap">
+</div>
+</div>
+</section>
+<!--proyectos-->
+
+
+   
+<section>  
+  <h2 class="text" id="proyectos">Proyectos</h2>
+ <div class="proyectos">
+ 
+  <div class="proyecto"> 
+    
+      <img class="ima" src="../img/congreso.png" alt="niseve">
+      <h3>Congreso TIC UNESUM</h3>
+      <p>Durante mi tiempo en la universidad, tuve la oportunidad de colaborar en la organización de un congreso de Tecnologías de la Información y la Comunicación (TIC). Como parte del equipo encargado de la promoción del evento, diseñamos y desarrollamos un sitio web para difundir información sobre el congreso.</p>
+      <a href="#">Link</a>
+      <a href="#">Repositorio</a>
+      <p>Lenguajes utilizados: HTML, CSS, JavaScript</p>
+    </div>
+  
+  <div class="proyecto">
+      <img class="ima" src="../img/congreso.png">
+      <h3>Nombre del proyecto</h3>
+      <p>Descripción del proyecto</p>
+      <a href="#">Link</a>
+      <a href="#">Repositorio</a>
+      <p>Lenguajes utilizados: HTML, CSS, JavaScript</p>
+    </div>
+  
+  <div class="proyecto">
+      <img src="../img/congreso.png">
+      <h3>Nombre del proyecto</h3>
+      <p>Descripción del proyecto</p>
+      <a href="#">Link</a>
+      <a href="#">Repositorio</a>
+      <p>Lenguajes utilizados: HTML, CSS, JavaScript</p>
+    </div>
+  </div>
+</section>
+  
+  <!--contacto-->
+  <section class="contacto"id="contacto">
+      
+      
+  <button class="open-form-btn">Contáctame</button>
+
+  <div class="contact-form-wrapper">
+    <div class="contact-form">
+      <h4>Contáctame</h4>
+      <form action="https://formsubmit.co/jonathanconformetomala@outlook.es" method="POST">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+  
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" required></textarea>
+  
+        <button type="submit">Enviar</button>
+      </form>
+      <button class="close-form-btn">Cerrar</button>
+    </div>
+  </div>
+  
+  
+    <p class="parrafo">Si tienes alguna pregunta o quieres hablar sobre un proyecto, no dudes en ponerte en contacto conmigo:</p>
+  <div class="contac">
+   <div class="cont">
+      <a href="https://github.com/jonathan-conforme"><img src="../img/git.svg" alt="git"></a>
+    </div>
+      <div class="cont">
+      <a href="https://api.whatsapp.com/send/?phone=593939634429&text&type=phone_number&app_absent=0"><img src="../img/what.svg" alt="git"></a>
+    </div>
+    <div class="cont">
+      <a href=""><img src="../img/linkedin.svg" alt="linkedin"></a></li>
+    </div>
+    <div class="cont">
+      <a href=""><img src="../img/instagram.svg" alt="instagram"></a></li>
+    </div>
+    <div class="cont">
+      <a href=""><img src="../img/instagram.svg" alt="instagram"></a></li>
+    </div>
+    </div>
+  </section>
+    
+
+   
+
+
+    
+  <script src="../js/toogle.js"></script>
+    <script src="../js/formulario.js"></script>
+  
+</body>
+</html>
