@@ -241,6 +241,7 @@ transform: scale(1.2);
 
 .proyecto {
   width:30%;
+  display: flex;
   margin-bottom: 20px;
 background-color:  #1F1F1F; 
 border-radius: 15px;
