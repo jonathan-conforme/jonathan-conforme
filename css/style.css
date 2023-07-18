@@ -228,7 +228,7 @@ transform: scale(1.2);
 }
 .proyectos {
   display: flex;
-  flex-wrap: wrap;
+  
   justify-content: space-around;
   max-width: 1200px;
   margin: 0 auto;
@@ -240,7 +240,7 @@ transform: scale(1.2);
 }
 
 .proyecto {
-  display: flex;
+ 
   width:30%;
   margin-bottom: 20px;
 background-color:  #1F1F1F; 
