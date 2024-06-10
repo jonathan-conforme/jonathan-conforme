@@ -82,6 +82,7 @@ nav .icon-bars .line{
   transition: all 0.3s ease;
 
 }
+
 @media(max-width: 768px){
 nav .logo{
   float: none;
@@ -117,6 +118,11 @@ nav .icon-bars{
   display: block;
 }
 }
+#congreso-img {
+  width: 50%; /* Ajusta este valor según sea necesario */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
 
 
 
