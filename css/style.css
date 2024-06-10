@@ -163,9 +163,16 @@ p {
   
   img {
     margin: 0 auto;
-    width: 50%;
-  height: auto; /* Esto mantiene la proporción de la imagen */
+    
   }
+  .
+  .ima1 {
+    margin: 0 auto;
+    width: 70%;
+    height: auto; /* Esto mantiene la proporción de la imagen */
+  }
+ 
+
 }
 div.container-img img
 {transform: scaleX(-1);}
