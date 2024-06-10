@@ -163,6 +163,8 @@ p {
   
   img {
     margin: 0 auto;
+    width: 50%;
+  height: auto; /* Esto mantiene la proporción de la imagen */
   }
 }
 div.container-img img
