@@ -119,8 +119,8 @@ nav .icon-bars{
 }
 }
 #congreso-img {
-  width: 50%; /* Ajusta este valor según sea necesario */
-  height: auto; /* Mantiene la proporción de la imagen */
+  width: 300px; /* Ajusta este valor según sea necesario */
+  height: 200px; /* Ajusta este valor según sea necesario */
 }
 
 
