@@ -1,32 +1,16 @@
 <h1>Hola Soy Jonathan Conforme</h1>
 🧑‍💻 ¡Hola, soy un Ingeniero en TIC y Desarrollador Web!
-<div align="center">
-🎨 Arte Pixelado
- ⠀⠀⠀⠀⠀⣀⣤⣤⣀
- ⠀⠀⠀⠀⢰⣿⣿⣿⣿⡆
- ⠀⠀⠀⠀⢸⣿⣿⣿⣿⡇
- ⠀⠀⠀⠀⠘⣿⣿⣿⣿⠃
- ⠀⠀⠀⠀⠀⠈⠛⠛⠁
- 💻 Codigo ≈ Creatividad ≈ Lógica
-</div>
 
-👨‍💼 Sobre mí
-Soy ingeniero en Tecnologías de la Información y Comunicaciones con experiencia en:
-🗄️ Bases de datos
+🧑‍💼 Sobre mí
+Soy Ingeniero en Tecnologías de la Información y Comunicaciones con experiencia en:
 🌐 Desarrollo frontend y backend
-⚙️ Metodologías ágiles: DevOps y Scrum
-🧹 Código limpio y buenas prácticas
-🚀 Aprendiz autodidacta orientado a superar límites
-Disfruto aprender tecnologías nuevas, resolver problemas y construir software útil y bien diseñado.
-💻 Tecnologías que uso
-Frontend:
-HTML · CSS · JavaScript · React
-Backend:
-Node.js · Express · Python
-Bases de Datos:
-MySQL · PostgreSQL · MongoDB
-Herramientas:
-Git · GitHub · Linux · Docker
+🧩 Arquitectura en Laravel Blade y PHP
+💻 Creación de interfaces limpias con Tailwind, Flowbite y Bootstrap
+🗄️ Modelado y administración de bases de datos en MySQL
+⚙️ Uso de herramientas como Navicat, Git y GitHub
+🧹 Enfoque en código limpio, buenas prácticas y constante aprendizaje
+Soy autodidacta, disciplinado y apasionado por construir soluciones reales que aporten valor.
+
 🎯 Metas actuales
 📗 Mejorar mis habilidades en frontend y backend
 🔧 Colaborar en proyectos grupales y open-source
