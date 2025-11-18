@@ -1,7 +1,7 @@
 <h1>Hola Soy Jonathan Conforme</h1>
 🧑‍💻 Desarrollador Web!
 
-🧑‍💼 Sobre mí
+<div>🧑‍💼 Sobre mí</div>
 Soy Ingeniero en Tecnologías de la Información y Comunicaciones con experiencia en:
 <p>🌐 Desarrollo frontend y backend</p>
 <p>🧩 Arquitectura en Laravel Blade y PHP</p>
