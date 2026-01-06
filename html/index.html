@@ -53,31 +53,32 @@
 
 
    <style>
-    @keyframes brillan {     
-0% {         
-posición de fondo : 0 % 50 % ;              
-}        
+    @keyframes rotate {
+        100% {
+            transform: rotate(1turn);
+        }
+    }
 
-50% {         
-posición de fondo : 100 % 50 % ;              
-}        
-
-100% {         
-posición de fondo : 0 % 50 % ;              
-}        
-}    
-
-.botón-bg {     
-fondo : gradiente cónico ( desde 0 grados , #00F5FF , #000 , #000 , #00F5FF , #000 , #000 , #000 , #00F5FF ) ;                 
-tamaño de fondo : 300 % 300 % ;          
-animación : brillo 6 s salida infinita ;        
-}  
-   </style>
-<div class = " botón-bg redondeado-completo p-0.5 hover:escala-105 duración de transición-300 activo:escala-100 " > 
-<botón clase = " px-8 texto-sm py-2.5 texto-blanco redondeado-completo fuente-media bg-gris-800 " >     
-        Haz clic en mí
-</botón>    
-
+    .rainbow::before {
+        content: '';
+        position: absolute;
+        z-index: -2;
+        left: -50%;
+        top: -50%;
+        width: 200%;
+        height: 200%;
+        background-position: 100% 50%;
+        background-repeat: no-repeat;
+        background-size: 50% 30%;
+        filter: blur(6px);
+        background-image: linear-gradient(#FFF);
+        animation: rotate 4s linear infinite;
+    }
+</style>
+<div class="rainbow relative z-0 bg-white/15 overflow-hidden p-0.5 flex items-center justify-center rounded-full hover:scale-105 transition duration-300 active:scale-100">
+    <button class="px-8 text-sm py-3 text-white rounded-full font-medium bg-gray-900/80 backdrop-blur">
+        Click Me
+    </button>
 </div>
 <section>  
   <h2 class="text" id="proyectos">Proyectos</h2>
