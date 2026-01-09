@@ -11,7 +11,27 @@
  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
 <body class="bg-gradient-to-b from-black to-[#3B006E] text-white">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .marquee-inner {
+        animation: marqueeScroll 35s linear infinite;
+    }
+
+    @keyframes marqueeScroll {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+</style>
 
 <!-- NAV -->
 <nav  class="flex items-center justify-between px-6 md:px-16 lg:px-24 py-5">
@@ -636,10 +656,32 @@
   </div>
   
 </section>
-<setion>
+<section>
+<h2 class="text-3xl font-semibold text-center">
+     Stack tecnológico
+  </h2>
+
+  <p data-aos="fade-up" data-aos-delay="100" class="text-sm text-slate-300 text-center max-w-lg mx-auto mt-2">
+    Lenguajes, frameworks y herramientas que aplico en el desarrollo de aplicaciones web.
+  </p>
+<div class="overflow-hidden w-full relative max-w-5xl mx-auto select-none mt-16">
+        <div
+            class="absolute left-0 top-0 h-full w-20 z-10 pointer-events-none bg-gradient-to-r from-[#140029] to-transparent">
+        </div>
+
+        <div class="marquee-inner flex will-change-transform min-w-[200%]">
+            <div class="flex py-4" id="logo-container">
+            </div>
+        </div>
+
+        <div
+            class="absolute right-0 top-0 h-full w-20 md:w-40 z-10 pointer-events-none bg-gradient-to-l from-[#140029] to-transparent">
+        </div>
+    </div>
+</section>
 
 
-  
+
 </setion>
 
 <section class='relative flex flex-col md:flex-row justify-center px-4 py-20 gap-20'>
@@ -746,6 +788,28 @@
     once: true
   });
 </script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+  const logoContainer = document.getElementById('logo-container');   const logos = [
+      `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" class="mx-14 w-8" alt="Laravel">`,
+    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" class="mx-14 w-8" alt="Bootstrap">`,
+    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="mx-14 w-8" alt="HTML">`,
+    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="mx-14 w-8" alt="CSS">`,
+    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="mx-14 w-8" alt="JavaScript">`,
+    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="mx-14 w-8" alt="MySQL">`,
+    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="mx-14 w-8" alt="PHP">`,
+    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="mx-14 w-8" alt="Git">`,
+    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="mx-14 w-8 invert" alt="GitHub">`,
+    `<img src="https://www.navicat.com/images/05.AboutUs_00_milestone_2021_Navicat.svg" class="mx-14 w-8" alt="Navicat">`,
+    `<img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" class="mx-14 w-8" alt="PostgreSQL">`
+    ];
 
+   
+
+    [...logos, ...logos].forEach((logo) => {
+        logoContainer.innerHTML += logo;
+    });
+    });
+</script>
 </body>
 </html>
