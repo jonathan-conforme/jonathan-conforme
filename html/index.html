@@ -11,28 +11,6 @@
  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
 <body class="bg-gradient-to-b from-black to-[#3B006E] text-white">
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-    * {
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .marquee-inner {
-        animation: marqueeScroll 35s linear infinite;
-    }
-
-    @keyframes marqueeScroll {
-        0% {
-            transform: translateX(0%);
-        }
-
-        100% {
-            transform: translateX(-50%);
-        }
-    }
-</style>
-
 <!-- NAV -->
 <nav  class="flex items-center justify-between px-6 md:px-16 lg:px-24 py-5">
  <a href="#" class="flex items-center">
@@ -46,39 +24,60 @@
             <span data-aos="flip-left" class="ml-2 text-gray-400">JONATHAN CONFORME</span>
         </a>
         <div class="hidden md:flex items-center gap-6 ml-7">
-           <a data-aos="fade-down" data-aos-delay="0" href="#" class="relative overflow-hidden h-6 group">
+           <a data-aos="fade-down" data-aos-delay="0" href="#estudio" class="relative overflow-hidden h-6 group">
                 <span class="block group-hover:-translate-y-full transition-transform duration-300">Estudios</span>
                 <span
                     class="block absolute top-full left-0 group-hover:translate-y-[-100%] transition-transform duration-300">Estudios</span>
             </a>
-            <a data-aos="fade-down" data-aos-delay="100" href="#" class="relative overflow-hidden h-6 group">
+            <a data-aos="fade-down" data-aos-delay="100" href="#proyectos" class="relative overflow-hidden h-6 group">
                 <span class="block group-hover:-translate-y-full transition-transform duration-300">Proyectos</span>
                 <span
                     class="block absolute top-full left-0 group-hover:translate-y-[-100%] transition-transform duration-300">Proyectos</span>
             </a>
-            <a data-aos="fade-down" data-aos-delay="200" href="#" class="relative overflow-hidden h-6 group">
+            <a data-aos="fade-down" data-aos-delay="200" href="#experiencia" class="relative overflow-hidden h-6 group">
                 <span class="block group-hover:-translate-y-full transition-transform duration-300">Experiencia</span>
                 <span
                     class="block absolute top-full left-0 group-hover:translate-y-[-100%] transition-transform duration-300">Experiencia</span>
             </a>
-            <a data-aos="fade-down" data-aos-delay="300" href="#" class="relative overflow-hidden h-6 group">
-                <span class="block group-hover:-translate-y-full transition-transform duration-300">Pricing</span>
+            <a data-aos="fade-down" data-aos-delay="300" href="#stack" class="relative overflow-hidden h-6 group">
+                <span class="block group-hover:-translate-y-full transition-transform duration-300">stack</span>
                 <span
-                    class="block absolute top-full left-0 group-hover:translate-y-[-100%] transition-transform duration-300">Pricing</span>
+                    class="block absolute top-full left-0 group-hover:translate-y-[-100%] transition-transform duration-300">stack</span>
             </a>
-            <a data-aos="fade-down" data-aos-delay="400" href="#" class="relative overflow-hidden h-6 group">
-                <span class="block group-hover:-translate-y-full transition-transform duration-300">Docs</span>
-                <span
-                    class="block absolute top-full left-0 group-hover:translate-y-[-100%] transition-transform duration-300">Docs</span>
-            </a>
+          
         </div>
 
         <div data-aos="fade-down" data-aos-delay="500" class="hidden ml-14 md:flex items-center gap-4">
           
-            <button
-                class="bg-white hover:shadow-[0px_0px_30px_14px] shadow-[0px_0px_30px_7px] hover:shadow-white/50 shadow-white/50 text-black px-4 py-2 rounded-full text-sm font-medium hover:bg-slate-100 transition duration-300">
-                Contacto
-            </button>
+           
+          <a
+  href="https://wa.me/593980659712?text=Hola%20Jonathan,%20me%20interesa%20tu%20trabajo"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="inline-flex items-center justify-center gap-2
+         bg-white hover:shadow-[0px_0px_30px_14px]
+         shadow-[0px_0px_30px_7px]
+         hover:shadow-white/50 shadow-white/50
+         text-black px-4 py-2 rounded-full
+         text-sm font-medium hover:bg-slate-100
+         transition duration-300"
+>
+  <!-- Icono WhatsApp -->
+  <svg
+    class="w-4 h-4 fill-black"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12.04 2C6.56 2 2.1 6.36 2.1 11.72c0 2.09.55 4.05 1.6 5.77L2 22l4.67-1.55a10.2 10.2 0 0 0 5.37 1.47c5.48 0 9.94-4.36 9.94-9.72S17.52 2 12.04 2zm.05 17.67a8.2 8.2 0 0 1-4.17-1.13l-.3-.18-2.77.92.93-2.67-.2-.32a7.78 7.78 0 0 1-1.2-4.18c0-4.3 3.6-7.8 8.01-7.8 4.42 0 8.02 3.5 8.02 7.8 0 4.3-3.6 7.8-8.02 7.8zm4.4-5.92c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.37-1.94-1.18-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.36.1-.48.1-.1.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.48-.4-.42-.54-.42h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.04.4 1.4.52.58.18 1.1.16 1.52.1.46-.06 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"
+    />
+  </svg>
+
+  Contacto
+</a>
+
+
+
         </div>
         <button id="menuToggle" class="md:hidden text-gray-600">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
@@ -88,26 +87,48 @@
         </button>
         <div id="mobileMenu"
             class="fixed inset-0 z-50 hidden bg-gradient-to-b flex flex-col items-center justify-center gap-6 text-white">
-            <a onclick="closeNavbar()" class="hover:text-indigo-600" href="#">
+             <a onclick="closeNavbar()" class="hover:text-indigo-600" href="#estudio">
+                Estudios
+            </a>
+            <a onclick="closeNavbar()" class="hover:text-indigo-600" href="#proyecto">
                 Proyetos
             </a>
-            <a onclick="closeNavbar()" class="hover:text-indigo-600" href="#">
+            <a onclick="closeNavbar()" class="hover:text-indigo-600" href="#experiencia">
                 Experiencia
             </a>
-            <a onclick="closeNavbar()" class="hover:text-indigo-600" href="#">
-                Pricing
+            <a onclick="closeNavbar()" class="hover:text-indigo-600" href="#stack">
+                stack
             </a>
-            <a onclick="closeNavbar()" class="hover:text-indigo-600" href="#">
-                Docs
-            </a>
+            
             <button onclick="closeNavbar()"
                 class="border border-slate-600 hover:bg-slate-800 px-4 py-2 rounded-full text-sm font-medium transition">
                 Contact
             </button>
-            <button onclick="closeNavbar()"
-                class="bg-white hover:shadow-[0px_0px_30px_14px] shadow-[0px_0px_30px_7px] hover:shadow-white/50 shadow-white/50 text-black px-4 py-2 rounded-full text-sm font-medium hover:bg-slate-100 transition duration-300">
-                Get Started
-            </button>
+              <a onclick="closeNavbar()"
+  href="https://wa.me/593980659712?text=Hola%20Jonathan,%20me%20interesa%20tu%20trabajo"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="inline-flex items-center justify-center gap-2
+         bg-white hover:shadow-[0px_0px_30px_14px]
+         shadow-[0px_0px_30px_7px]
+         hover:shadow-white/50 shadow-white/50
+         text-black px-4 py-2 rounded-full
+         text-sm font-medium hover:bg-slate-100
+         transition duration-300"
+>
+  <!-- Icono WhatsApp -->
+  <svg
+    class="w-4 h-4 fill-black"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12.04 2C6.56 2 2.1 6.36 2.1 11.72c0 2.09.55 4.05 1.6 5.77L2 22l4.67-1.55a10.2 10.2 0 0 0 5.37 1.47c5.48 0 9.94-4.36 9.94-9.72S17.52 2 12.04 2zm.05 17.67a8.2 8.2 0 0 1-4.17-1.13l-.3-.18-2.77.92.93-2.67-.2-.32a7.78 7.78 0 0 1-1.2-4.18c0-4.3 3.6-7.8 8.01-7.8 4.42 0 8.02 3.5 8.02 7.8 0 4.3-3.6 7.8-8.02 7.8zm4.4-5.92c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.37-1.94-1.18-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.36.1-.48.1-.1.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.48-.4-.42-.54-.42h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.04.4 1.4.52.58.18 1.1.16 1.52.1.46-.06 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"
+    />
+  </svg>
+
+  Contacto
+</a>
         </div>
 </nav>
 
@@ -209,7 +230,8 @@
 </section>
 
 
-<section class="max-w-6xl mx-auto px-6 mt-12">
+<section class="max-w-6xl mx-auto px-6 mt-12" id="estudio">
+  <!-- ESTUDIOS -->
 <h1 data-aos="fade-up"
      data-aos-anchor-placement="top-bottom" class="text-3xl font-semibold text-center mx-auto text-white">
   Estudios
@@ -306,7 +328,7 @@
 </div>
 </section>  
 <!-- EXPERIENCIA -->
-<section data-aos="fade-up" data-aos-delay="400"
+<section id="experiencia" data-aos="fade-up" data-aos-delay="400"
      data-aos-anchor-placement="top-bottom" class="max-w-6xl mx-auto px-6 mt-12">
 
   <h2 class="text-3xl font-semibold text-center">
@@ -445,7 +467,7 @@
   
 </section>
 <!-- PROYECTOS -->
-<section id="projects" data-aos="fade-up" data-aos-delay="400"
+<section id="Proyectos" data-aos="fade-up" data-aos-delay="400"
      data-aos-anchor-placement="top-bottom" class="max-w-6xl mx-auto px-6 mt-12">
 
   <h2 class="text-3xl font-semibold text-center">
@@ -656,7 +678,7 @@
   </div>
   
 </section>
-<section class="max-w-6xl mx-auto px-6 mt-12">
+<section id="stack" class="max-w-6xl mx-auto px-6 mt-12">
 <h2 class="text-3xl font-semibold text-center">
      Stack tecnológico
   </h2>
@@ -684,31 +706,112 @@
 
 </setion>
 
-<section class='relative flex flex-col md:flex-row justify-center px-4 py-20 gap-20'>
+<section id="Contacto" class='relative flex flex-col md:flex-row justify-center px-4 py-20 gap-20'>
     
     <div class='fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none mb-10 size-140 bg-green-500/35 rounded-full blur-[200px]'></div>
     
-    <div class='text-center md:text-left mt-12'>
-        <div class="flex items-center  p-1.5 rounded-full border border-green-900 text-xs w-fit mx-auto md:mx-0">
-            <div class="flex items-center">
-                <img class="size-7 rounded-full border border-green-900" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=50" alt="userImage1" />
-                <img class="size-7 rounded-full border border-green-900 -translate-x-2" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=50" alt="userImage2" />
-                <img class="size-7 rounded-full border border-green-900 -translate-x-4" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=50&h=50&auto=format&fit=crop" alt="userImage3" />
-            </div>
-            <p class="-translate-x-2 text-xs text-slate-200">Join community of 1m+ founders </p>
-        </div>
-        <h1 class='font-medium text-3xl md:text-5xl/15 bg-linear-to-r from-white to-green-300 bg-clip-text max-w-[470px] mt-4'>Ready to Transform Your Digital Experience?</h1>
-        <p class='text-sm/6 text-white max-w-[345px] mt-4 mx-auto md:mx-0'>Let our design team craft a website that elevates your brand. Book a free session today.</p> 
+    <div class="text-center md:text-left mt-12">
+
+  <!-- Badge superior -->
+  <div class="inline-flex items-center gap-2 px-3 py-1.5
+            rounded-full border border-indigo-500/30
+            text-xs text-slate-300">
+  <span class="size-2 rounded-full bg-green-400 animate-pulse"></span>
+  Disponible para nuevos proyectos
+</div>
+
+
+  <!-- Título -->
+  <h1 class="font-medium text-3xl md:text-5xl/15
+             bg-gradient-to-r from-white to-indigo-400
+             bg-clip-text text-transparent
+             max-w-[520px] mt-4">
+    Hablemos de tus necesidades en soluciones de sistemas
+  </h1>
+
+  <!-- Descripción -->
+  <p class="text-sm/6 text-slate-300 max-w-[380px] mt-4 mx-auto md:mx-0">
+    Desarrollo soluciones web modernas, escalables y adaptadas a cada proyecto.
+    Estoy listo para ayudarte.
+  </p>
+
+  <!-- Botones -->
+  <div class="flex flex-col sm:flex-row gap-4 mt-6 justify-center md:justify-start">
+
+    <!-- WhatsApp -->
+     <!-- GitHub -->
+  <a data-aos="fade-down" data-aos-delay="400" href="https://github.com/jonathan-conforme" target="_blank" class="inline-flex items-center gap-2">
+    <div class="button-bg rounded-full p-0.5">
+      <span class="flex items-center gap-2 px-6 py-2.5 bg-gray-900 rounded-full text-sm text-white">
+        <!-- Icono GitHub -->
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12 2C6.48 2 2 6.58 2 12.26c0 4.54 2.87 8.39 6.84 9.75.5.1.68-.22.68-.48
+            0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.17-1.11-1.48-1.11-1.48
+            -.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06
+            .89 1.55 2.34 1.1 2.91.84
+            .09-.66.35-1.1.63-1.35
+            -2.22-.26-4.56-1.14-4.56-5.05
+            0-1.12.39-2.03 1.03-2.75
+            -.1-.26-.45-1.3.1-2.71
+            0 0 .84-.27 2.75 1.05
+            .8-.23 1.65-.34 2.5-.34
+            .85 0 1.7.11 2.5.34
+            1.9-1.32 2.74-1.05 2.74-1.05
+            .55 1.41.2 2.45.1 2.71
+            .64.72 1.03 1.63 1.03 2.75
+            0 3.92-2.34 4.78-4.57 5.04
+            .36.32.68.95.68 1.92
+            0 1.39-.01 2.51-.01 2.85
+            0 .27.18.59.69.48
+            A10.05 10.05 0 0022 12.26
+            C22 6.58 17.52 2 12 2z" />
+        </svg>
+        GitHub
+      </span>
     </div>
+  </a>
+
+    <!-- LinkedIn -->
+  <a data-aos="fade-down" data-aos-delay="400" href="https://linkedin.com/in/jonathan-conforme" target="_blank" class="inline-flex items-center gap-2">
+    <div class="button-bg rounded-full p-0.5">
+      <span class="flex items-center gap-2 px-6 py-2.5 bg-gray-900 rounded-full text-sm text-white">
+        <!-- Icono LinkedIn -->
+       <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20.45 20.45h-3.55v-5.4c0-1.29-.03-2.95-1.8-2.95
+                 -1.8 0-2.08 1.4-2.08 2.85v5.5H9.47V9h3.4v1.56h.05
+                 c.47-.9 1.6-1.85 3.3-1.85 3.53 0 4.18 2.32
+                 4.18 5.34v6.4zM5.34 7.43
+                 c-1.14 0-2.06-.93-2.06-2.07
+                 0-1.14.92-2.06 2.06-2.06
+                 1.14 0 2.06.92 2.06 2.06
+                 0 1.14-.92 2.07-2.06 2.07zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0z"/>
+      </svg>
+        LinkedIn
+      </span>
+    </div>
+  </a>
+      
+    </div>
+
+  <!-- Info extra -->
+  <div class="mt-6 text-xs text-slate-400 space-y-1">
+    <p><strong>Teléfono:</strong> +593 98 065 9712</p>
+    <p><strong>Correo:</strong> jonathanconforme@tomala@outlook.es</p>
+  </div>
+
+</div>
+
             
     <div class='w-full max-w-lg bg-[#00A63E]/0 backdrop-blur-sm border border-white/10 rounded-xl p-8'>
-        <form class='space-y-6'>
+        <form id="contact-form" class='space-y-6'>
             <div>
-                <label class='block text-white text-sm mb-2'>Name</label>
+                <label class='block text-white text-sm mb-2'>Nombre</label>
                 <input 
-                    type="text" 
+                    type="text"
+                    name="name" 
                     required
-                    placeholder="Eden Johnson" 
+                    placeholder="Jonathan Conforme" 
                     class='w-full bg-[#00A63E]/5 border border-white/20 rounded-lg px-4 py-3 text-white/40 placeholder:text-white/40 placeholder:text-sm focus:outline-none focus:border-green-600 transition'
                 />
             </div>
@@ -717,17 +820,19 @@
                 <label class='block text-white text-sm mb-2'>Email</label>
                 <input 
                     type="email" 
+                    name="email"
                     required
-                    placeholder="Eden@example.com" 
+                    placeholder="Jonathan@example.com" 
                     class='w-full bg-[#00A63E]/5 border border-white/20 rounded-lg px-4 py-3 text-white/40 placeholder:text-white/40 placeholder:text-sm focus:outline-none focus:border-green-600 transition'
                 />
             </div>
 
             <div>
-                <label class='block text-white text-sm mb-2'>Message</label>
+                <label class='block text-white text-sm mb-2'>Mensaje</label>
                 <textarea 
-                    placeholder="Write your message here..." 
+                    placeholder="Escribe tu mensaje aquí..." 
                     rows="4"
+                    name="message"
                     required
                     class='w-full bg-[#00A63E]/5 border border-white/20 rounded-lg px-4 py-3 text-white/40 placeholder:text-white/40 placeholder:text-sm focus:outline-none focus:border-green-600 transition resize-none'
                 ></textarea>
@@ -744,6 +849,39 @@
         </form>
     </div>
 </section>
+<div
+  id="successAlert"
+  class="hidden fixed top-6 right-6 z-50 bg-white inline-flex space-x-3 p-3 text-sm rounded border border-gray-200 shadow-lg"
+>
+  <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+    <path
+      d="M16.5 8.31V9a7.5 7.5 0 1 1-4.447-6.855M16.5 3 9 10.508l-2.25-2.25"
+      stroke="#22C55E"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+
+  <div>
+    <h3 class="text-slate-700 font-medium">Mensaje enviado</h3>
+    <p class="text-slate-500">Gracias por contactarme, te responderé pronto.</p>
+  </div>
+
+  <button
+    type="button"
+    onclick="hideAlert()"
+    class="cursor-pointer mb-auto text-slate-400 hover:text-slate-600 active:scale-95 transition"
+  >
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+      <rect y="12.532" width="17.498" height="2.1" rx="1.05"
+        transform="rotate(-45.74 0 12.532)" fill="currentColor" fill-opacity=".7"/>
+      <rect x="12.531" y="13.914" width="17.498" height="2.1" rx="1.05"
+        transform="rotate(-135.74 12.531 13.914)" fill="currentColor" fill-opacity=".7"/>
+    </svg>
+  </button>
+</div>
+
 <footer class="flex flex-col items-center justify-center w-full text-white/70 mt-20 mb-10">
   
     <p class="mt-4 text-center">Copyright © 2026 <a href="https://prebuiltui.com">Jonathan Conforme</a>. All rights reservered.</p>
@@ -777,39 +915,10 @@
         </a>
     </div>
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="../js/formulario.js"></script>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 <script src="../js/nav.js"></script>
-<script>
-  AOS.init({
-    duration: 900,
-    once: true,
-    easing: 'ease-out-cubic',
-    once: true
-  });
-</script>
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-  const logoContainer = document.getElementById('logo-container');   const logos = [
-      `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" class="mx-14 w-8" alt="Laravel">`,
-    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" class="mx-14 w-8" alt="Bootstrap">`,
-    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="mx-14 w-8" alt="HTML">`,
-    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="mx-14 w-8" alt="CSS">`,
-    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="mx-14 w-8" alt="JavaScript">`,
-    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="mx-14 w-8" alt="MySQL">`,
-    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="mx-14 w-8" alt="PHP">`,
-    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="mx-14 w-8" alt="Git">`,
-    `<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="mx-14 w-8 invert" alt="GitHub">`,
-    `<img src="https://www.navicat.com/images/05.AboutUs_00_milestone_2021_Navicat.svg" class="mx-14 w-8" alt="Navicat">`,
-    `<img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" class="mx-14 w-8" alt="PostgreSQL">`
-    ];
-
-   
-
-    [...logos, ...logos].forEach((logo) => {
-        logoContainer.innerHTML += logo;
-    });
-    });
-</script>
+<script src="../js/logo.js"></script>
 </body>
 </html>
