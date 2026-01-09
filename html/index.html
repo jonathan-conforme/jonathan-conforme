@@ -11,59 +11,6 @@
  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
 <body class="bg-gradient-to-b from-black to-[#3B006E] text-white">
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-    * {
-        font-family: "Poppins", sans-serif;
-    }
-     @keyframes rotate {
-        100% {
-            transform: rotate(1turn);
-        }
-    }
-
-    .rainbow::before {
-        content: '';
-        position: absolute;
-        z-index: -2;
-        left: -50%;
-        top: -50%;
-        width: 200%;
-        height: 200%;
-        background-position: 100% 50%;
-        background-repeat: no-repeat;
-        background-size: 50% 30%;
-        filter: blur(6px);
-        background-image: linear-gradient(#FFF);
-        animation: rotate 4s linear infinite;
-    }
-    @keyframes shine {
-        0% {
-            background-position: 0% 50%;
-        }
-
-        50% {
-            background-position: 100% 50%;
-        }
-
-        100% {
-            background-position: 0% 50%;
-        }
-    }
-
-    .button-bg {
-        background: conic-gradient(from 0deg, #00F5FF, #000, #000, #00F5FF, #000, #000, #000, #00F5FF);
-        background-size: 300% 300%;
-        animation: shine 6s ease-out infinite;
-    }
-
-    .group:hover .icon {
-  transform: translateY(-4px);
-  transition: transform 0.3s ease-out;
-}
-
-</style>
 
 
 <!-- NAV -->
@@ -339,7 +286,8 @@
 </div>
 </section>  
 <!-- EXPERIENCIA -->
-<section class="max-w-6xl mx-auto px-6 mt-28">
+<section data-aos="fade-up" data-aos-delay="400"
+     data-aos-anchor-placement="top-bottom" class="max-w-6xl mx-auto px-6 mt-28">
 
   <h2 class="text-3xl font-semibold text-center">
     Experiencia Profesional
@@ -438,7 +386,7 @@
     </div>
     <!-- CARD 3 -->
 <div class="max-w-80 bg-gradient-to-b text-slate-800 rounded-xl overflow-hidden hover:-translate-y-1 transition">
- <a hret:="https://jonathan-conforme.github.io/congresounseumtic.github.io/"> <img
+ <a href="https://jonathan-conforme.github.io/congresounseumtic.github.io/"> <img
     src="../img/tic2.png"
     class="w-full h-44 object-cover"
     alt="Prácticas profesionales UNESUM"
@@ -455,14 +403,10 @@
       Prácticas profesionales · 2023 — Ecuador
     </p>
 
-    <p class="text-sm mt-3 text-slate-200">
-      Desarrollo e implementación de una página web estática institucional durante
-      las prácticas profesionales, utilizando
-      <span class="font-medium text-slate-500">HTML, CSS, JavaScript y Bootstrap</span>,
-      enfocada en mejorar la presencia digital y la difusión de información académica.
-    </p>
+    <p data-aos="fade-up" data-aos-delay="100" class="text-sm mt-3 text-slate-200">
+     Desarrollo de página web institucional estática durante prácticas profesionales, usando HTML, CSS, JavaScript y Bootstrap para difusión académica. </p>
 
-    <div class="flex flex-wrap gap-3 mt-4">
+    <div data-aos="fade-up" data-aos-delay="200" class="flex flex-wrap gap-3 mt-4">
       <!-- HTML -->
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-5" alt="HTML">
 
@@ -481,13 +425,14 @@
   
 </section>
 <!-- PROYECTOS -->
-<section id="projects" class="max-w-6xl mx-auto px-6 mt-32">
+<section id="projects" data-aos="fade-up" data-aos-delay="400"
+     data-aos-anchor-placement="top-bottom" class="max-w-6xl mx-auto px-6 mt-32">
 
   <h2 class="text-3xl font-semibold text-center">
     Proyectos Destacados
   </h2>
 
-  <p class="text-sm text-slate-300 text-center max-w-lg mx-auto mt-2">
+  <p data-aos="fade-up" data-aos-delay="100" class="text-sm text-slate-300 text-center max-w-lg mx-auto mt-2">
     Algunos de los proyectos web que he desarrollado a nivel académico,
     personal y colaborativo.
   </p>
@@ -508,35 +453,21 @@
     Sistema POS Meat
   </h3>
 
-  <p class="text-sm text-slate-200">
-    Sistema de punto de venta (POS) desarrollado para una carnicería,
-    enfocado en la gestión de ventas, productos e inventario, con
-    generación de facturas físicas y digitales en formato PDF.
-    Implementado con backend en Laravel y una interfaz moderna y responsiva.
-  </p>
+  <p data-aos="fade-up" data-aos-delay="200" class="text-sm text-slate-200">
+   Sistema POS para carnicería, gestiona ventas, productos e inventario, genera facturas físicas y PDF, con backend Laravel y AJAX.  </p>
 
   <!-- Tecnologías -->
-  <div class="flex flex-wrap gap-3 mt-2">
+  <div data-aos="fade-up" data-aos-delay="300" class="flex flex-wrap gap-3 mt-2">
 
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" class="w-5" alt="Laravel">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="w-5" alt="MySQL">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-5" alt="AJAX">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" class="w-5" alt="Vite">
-
-
-
-
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" class="w-5" alt="Tailwind CSS">
+    <img src="https://flowbite.com/docs/images/logo.svg" class="w-5" alt="Flowbite">
   </div>
   
-  <p class="text-xs text-slate-500">
-    UI construida con Tailwind CSS, Flowbite y plantillas Blade.
-     <div class="flex flex-wrap gap-3 mt-2">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" class="w-5" alt="Tailwind CSS">
-    <img src="https://flowbite.com/docs/images/logo.svg" class="w-5" alt="Flowbite">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" class="w-5" alt="Laravel">
-   </div>
-  </p>
-
+  
   <!-- Acción -->
   <a href="https://github.com/jonathan-conforme/Sistem_Pos_Meat" target="_blank"
      class="inline-flex items-center gap-2 mt-4 text-sm font-medium text-indigo-600 hover:underline">
@@ -581,29 +512,19 @@
 
   <div class="p-5 space-y-3">
     <h3 class="font-semibold text-white">
-      Sitio Web Carrera de Telemática (TIC)
+      Sitio Web Telemática (TIC)
     </h3>
 
-    <p class="text-sm text-slate-200">
-      Desarrollo de un sitio web institucional para la carrera de
-      <span class="font-medium text-slate-100">Telemática (TIC)</span> de la
-      UNESUM, orientado a la difusión de información académica, eventos,
-      estructura de la carrera y contenidos informativos para estudiantes
-      y docentes.
+    <p data-aos="fade-up" data-aos-delay="200" class="text-sm text-slate-200">
+        Desarrollo de sitio web institucional para la carrera de Telemática UNESUM, difundiendo información, eventos y contenidos para estudiantes.
     </p>
 
     <!-- Tecnologías -->
-    <div class="flex flex-wrap gap-3 mt-2">
+    <div data-aos="fade-up" data-aos-delay="300" class="flex flex-wrap gap-3 mt-2">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-5" alt="HTML">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="w-5" alt="CSS">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-5" alt="JavaScript">
     </div>
-
-    <p class="text-xs text-slate-500">
-      Interfaz desarrollada con diseño responsivo, buenas prácticas de
-      estructura HTML, estilos CSS y funcionalidades dinámicas con JavaScript.
-    </p>
-
     <!-- Acción -->
    <a href="https://github.com/jonathan-conforme/telematica" target="_blank"
    class="inline-flex items-center gap-2 mt-4 text-sm font-medium text-indigo-600 hover:underline">
@@ -652,24 +573,15 @@
       Galápagos Explorer — Landing Page
     </h3>
 
-    <p class="text-sm text-slate-200">
-      Proyecto escolar Landing page desarrollada para la promoción turística de las Islas
-      Galápagos, enfocada en una presentación visual atractiva, navegación
-      intuitiva y secciones informativas sobre destinos, servicios y
-      experiencias de viaje.
+    <p data-aos="fade-up" data-aos-delay="200" class="text-sm text-slate-200">
+      Proyecto escolar creada para promover el turismo en Galápagos, con diseño atractivo, navegación intuitiva y contenido informativo sobre destinos.
     </p>
 
     <!-- Tecnologías -->
-    <div class="flex flex-wrap gap-3 mt-2">
+    <div data-aos="fade-up" data-aos-delay="300" class="flex flex-wrap gap-3 mt-2">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-5" alt="HTML">
        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" class="w-5" alt="Bootstrap">
        </div>
-
-    <p class="text-xs text-slate-500">
-      Sitio web estático desarrollado con HTML, Bootstrap,
-      aplicando diseño responsivo y buenas prácticas de maquetación web.
-    </p>
-
     <!-- Acción -->
     <a href="https://jonathan-conforme.github.io/Galapagos-Explorer/" target="_blank"
        class="inline-block mt-4 text-sm font-medium text-indigo-600 hover:underline">
@@ -679,47 +591,56 @@
 </div>
 
  <!-- PROYECTO 4 -->
-    <div class="max-w-80 bg-gradient-to-b text-slate-800 rounded-xl overflow-hidden hover:-translate-y-1 transition">
+  <!-- PROYECTO -->
+<div class="max-w-80 bg-gradient-to-b text-slate-800 rounded-xl overflow-hidden hover:-translate-y-1 transition">
   <img
-    src="../img/galapagos.png"
+    src="../img/portfolio.png"
     class="w-full h-44 object-cover"
-    alt="Landing Page Galápagos Explorer"
+    alt="Landing Page Portafolio Personal"
   >
 
   <div class="p-5 space-y-3">
     <h3 class="font-semibold text-white">
-      Galápagos Explorer — Landing Page
+      Landing Page — Portafolio Personal
     </h3>
 
-    <p class="text-sm text-slate-200">
-      Proyecto escolar Landing page desarrollada para la promoción turística de las Islas
-      Galápagos, enfocada en una presentación visual atractiva, navegación
-      intuitiva y secciones informativas sobre destinos, servicios y
-      experiencias de viaje.
+    <p data-aos="fade-up" data-aos-delay="200" class="text-sm text-slate-200">
+     Landing page personal creada como portafolio profesional para mostrar proyectos, experiencia, tecnologías y un diseño moderno centrado en el usuario.
     </p>
 
     <!-- Tecnologías -->
-    <div class="flex flex-wrap gap-3 mt-2">
+    <div data-aos="fade-up" data-aos-delay="300" class="flex flex-wrap gap-3 mt-2">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-5" alt="HTML">
-       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" class="w-5" alt="Bootstrap">
-       </div>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="w-5" alt="CSS">
+       <span class="text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/30">
+    PrebuiltUI
+  </span>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-5" alt="JavaScript">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" class="w-5" alt="Tailwind CSS">
+    </div>
 
-    <p class="text-xs text-slate-500">
-      Sitio web estático desarrollado con HTML, Bootstrap,
-      aplicando diseño responsivo y buenas prácticas de maquetación web.
-    </p>
+  
 
     <!-- Acción -->
-    <a href="https://jonathan-conforme.github.io/Galapagos-Explorer/" target="_blank"
-       class="inline-block mt-4 text-sm font-medium text-indigo-600 hover:underline">
+    <a href="#"
+       target="_blank"
+       class="inline-flex items-center gap-2 mt-4 text-sm font-medium text-indigo-600 hover:underline">
       Ver proyecto →
     </a>
   </div>
 </div>
 
+
+
+
   </div>
   
 </section>
+<setion>
+
+
+  
+</setion>
 
 <section class='relative flex flex-col md:flex-row justify-center px-4 py-20 gap-20'>
     
