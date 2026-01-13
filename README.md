@@ -17,8 +17,7 @@ Soy Ingeniero en Tecnologías de la Información y Comunicaciones con experienci
 🧑‍💻 Convertirme en desarrollador full-stack
 
 🎨 Mi Portafolio
-(Puedes colocar aquí el enlace cuando lo tengas creado)
-👉 Mi Portafolio Web
+(https://jonathan-conforme.github.io/jonathan-conforme/html/#)
 🤝 ¿Colaboramos?
 
 Estoy abierto a colaborar en proyectos web, APIs, herramientas útiles, automatización o cualquier idea interesante.
