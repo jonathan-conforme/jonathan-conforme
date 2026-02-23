@@ -133,4 +133,14 @@
 @keyframes blink {
   50% { opacity: 0; }
 }
+/* Evita el scroll horizontal en todo el sitio */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
 
+/* Asegura que los contenedores no excedan el ancho */
+section, nav {
+  overflow-x: hidden;
+}

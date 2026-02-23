@@ -12,8 +12,8 @@
   </head>
   <body class="bg-gradient-to-b from-black to-[#3B006E] text-white">
     <!-- NAV -->
-    <nav class="flex items-center justify-between px-6 md:px-16 lg:px-24 py-5">
-      <a href="#" class="flex items-center">
+   <nav class="flex items-center justify-between px-6 md:px-16 lg:px-24 py-5">   
+            <a href="#" class="flex items-center">
         <svg
           width="32"
           height="32"
@@ -26,9 +26,8 @@
           <circle cx="16.001" cy="27.294" r="4.706" fill="#D9D9D9" />
           <circle cx="27.294" cy="16" r="4.706" fill="#D9D9D9" />
         </svg>
-        <span id="typewriter" data-aos="flip-left" class="ml-2 text-gray-400 inline-block w-[230px]"
-          ></span
-        >
+        <span id="typewriter" data-aos="flip-left" class="ml-2 text-gray-400 inline-block w-auto min-w-[150px] md:w-[230px]"></span>
+        
       </a>
       <div class="hidden md:flex items-center gap-6 ml-7">
         <a
@@ -79,7 +78,7 @@
         <a
           data-aos="fade-down"
           data-aos-delay="300"
-          href="#stack"
+          href="#stack_title"
           class="relative overflow-hidden h-6 group"
         >
           <span
@@ -138,10 +137,20 @@
         </svg>
       </button>
       <div
-        id="mobileMenu"
-        class="fixed inset-0 z-50 hidden bg-gradient-to-b flex flex-col items-center justify-center gap-6 text-white"
-      >
-        <a
+  id="mobileMenu"
+  class="fixed inset-0 z-50 h-screen
+       bg-black/5 backdrop-blur-lg
+       flex flex-col items-center justify-center
+       gap-6 text-white
+       overflow-hidden
+       transform -translate-y-full
+       transition-transform duration-500 ease-in-out">
+       <button onclick="closeNavbar()" class="absolute top-6 right-6 text-white hover:text-gray-400">
+    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </button>       
+       <a
           onclick="closeNavbar()"
           class="hover:text-indigo-600"
           href="#estudio"
@@ -162,7 +171,7 @@
         >
           Experiencia
         </a>
-        <a onclick="closeNavbar()" class="hover:text-indigo-600" href="#stack">
+        <a onclick="closeNavbar()" class="hover:text-indigo-600" href="#stack_title">
           stack
         </a>
 
@@ -596,7 +605,6 @@ C22 6.58 17.52 2 12 2z"
       <h2 class="text-3xl font-semibold text-center">
         Experiencia Profesional
         <span class="block h-1 w-16 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mt-4 rounded-full"></span>
-  </h1>
       </h2>
 
       <p class="text-sm text-slate-300 text-center max-w-lg mx-auto mt-2">
@@ -1137,7 +1145,7 @@ C22 6.58 17.52 2 12 2z"
         </div>
       </div>
     </section>
-    <section id="stack" class="max-w-6xl mx-auto py-24" data-aos="fade-up"
+    <section id="stack_title" class="max-w-6xl mx-auto py-24" data-aos="fade-up"
       >
       <h2 class="text-3xl font-semibold text-center"  data-aos="flip-left data-aos-delay="400"
       data-aos-anchor-placement="top-bottom"">Stack tecnológico</h2>
@@ -1283,7 +1291,7 @@ C22 6.58 17.52 2 12 2z"
         <!-- Info extra -->
         <div class="mt-6 text-xs text-slate-400 space-y-1">
           <p><strong>Teléfono:</strong> +593 98 065 9712</p>
-          <p><strong>Correo:</strong> jonathanconforme@tomala@outlook.es</p>
+          <p><strong>Correo:</strong> jonathanconformetomala@outlook.es</p>
         </div>
       </div>
 
