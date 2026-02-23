@@ -121,4 +121,16 @@
         to {
             transform: rotate(360deg);
         }
+
+        
     }
+  .cursor::after {
+  content: "|";
+  margin-left: 5px;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
